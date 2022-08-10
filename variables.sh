@@ -10,5 +10,5 @@ echo $a
 a=$((8+5))
 echo $a
 #command substitution
-DATE=(date +%F)
-echo welcome,today date is $Date
+DATE=$(date +%F)
+echo welcome,today date is $DATE
