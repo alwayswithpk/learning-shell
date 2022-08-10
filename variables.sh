@@ -12,3 +12,6 @@ echo $a
 #command substitution
 DATE=$(date +%F)
 echo welcome,today date is $DATE
+
+#variable for command line
+echo c =$c
