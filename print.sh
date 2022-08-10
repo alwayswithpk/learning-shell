@@ -24,7 +24,7 @@ echo -e "a\tb"
 # \e[0m -> disable colour
 
 #what  are the colours we have
-colour     code   syntax
+colour     code    syntax
 #red       31      \e[31m
 #green     32      \e[32m
 #yellow    33      \e[33m
@@ -34,3 +34,5 @@ colour     code   syntax
 
 echo -e "\e[34mhello in blue colour\e[0m"
 echo "hello in normal text clour"
+
+for more colour options :https://misc.flogisoft.com/bash/tip_colors_and_formatting
