@@ -32,5 +32,5 @@ colour     code   syntax
 #magenta   35      \e[35m
 #cyan      36      \e[36m
 
-echo -e "\e[31mhello in red colour"
+echo -e "\e[31mhello in red colour\e[0m"
 echo "hello in normal text clour"
